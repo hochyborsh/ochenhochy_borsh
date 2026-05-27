@@ -1,0 +1,12 @@
+husla = [8, 9, 10, 11]
+print(f'Иначальный вариант списка: {husla}')
+husla[1] = 17
+print(f'Замена второго числа на 17: {husla}')
+husla.extend([4, 5, 6])
+print(f'Добавление в конце списка 4, 5 и 6: {husla}')
+husla.pop(0)
+print(f'Удаление первого элемента: {husla}')
+husla.extend(husla[:])
+print(f'Удваивание списка: {husla}')
+husla.insert(3, 25)
+print(f'Вставка числа 25 по индексу 3: {husla}')
